@@ -27,6 +27,7 @@ public class HomePage {
 		driver.get("https://www.google.co.in/");
 		
 		Reporter.log("Using Chrome browser for this Test");
+		System.out.println("delete this line ");
 		
 		TakesScreenshot tsc= (TakesScreenshot)driver;
 		File img =tsc.getScreenshotAs(OutputType.FILE);
